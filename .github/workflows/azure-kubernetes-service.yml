@@ -35,10 +35,10 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_CONTAINER_REGISTRY: "your-azure-container-registry"
-  CONTAINER_NAME: "your-container-name"
-  RESOURCE_GROUP: "your-resource-group"
-  CLUSTER_NAME: "your-cluster-name"
+  AZURE_CONTAINER_REGISTRY: registry010
+  CONTAINER_NAME: nginx
+  RESOURCE_GROUP: 010
+  CLUSTER_NAME: targil010
   DEPLOYMENT_MANIFEST_PATH: "your-deployment-manifest-path"
 
 jobs:
